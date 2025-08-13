@@ -1,13 +1,13 @@
 # Roadmap
 
-- [ ] Create and link git repo
-- [ ] Setup linter for TS and formatting
+- [x] Create and link git repo
+- [x] Setup linter for TS and formatting
 - [ ] Setup Vite (review config+scaffold)
 - [ ] Setup Tailwind (review dark mode)
-- [ ] Setup ReactRouter (SPA configy+scaffold)
+- [ ] Setup ReactRouter (SPA configy+scaffold .react-rounter ?)
 - [ ] Setup Redux
-- [ ] Clean welcome features
-- [ ] Configure route gurding
+- [ ] Remove welcome features
+- [ ] Configure route guarding
 - [ ] Login reducer
 - [ ] Retrieve data from backend
 - [ ] React animations
