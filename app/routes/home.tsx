@@ -1,12 +1,9 @@
-import { Welcome } from "../welcome/welcome";
+import { Login } from "~/modules/login/login";
 
 export function meta() {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+  return [{ title: "Star Crusade" }];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <Login />;
 }
