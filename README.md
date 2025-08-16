@@ -5,7 +5,7 @@
 - [x] Setup Vite (review config+scaffold)
 - [x] Setup Tailwind (review dark mode)
 - [x] Remove welcome features
-- [ ] Setup ReactRouter (SPA configy+scaffold .react-rounter ?)
+- [x] Setup ReactRouter
 - [ ] Setup Redux
 - [ ] Configure route guarding
 - [ ] Login reducer
