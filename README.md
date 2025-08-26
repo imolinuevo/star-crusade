@@ -6,8 +6,7 @@
 - [x] Setup Tailwind (review dark mode)
 - [x] Remove welcome features
 - [x] Setup ReactRouter
-- [ ] Setup Redux
+- [x] Setup Redux + Auth slice & login reducer
 - [ ] Configure route guarding
-- [ ] Login reducer
 - [ ] Retrieve data from backend
 - [ ] React animations
