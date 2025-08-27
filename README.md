@@ -7,6 +7,6 @@
 - [x] Remove welcome features
 - [x] Setup ReactRouter
 - [x] Setup Redux + Auth slice & login reducer
-- [ ] Configure route guarding
+- [x] Configure route guarding
 - [ ] Retrieve data from backend
 - [ ] React animations

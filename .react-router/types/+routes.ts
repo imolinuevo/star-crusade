@@ -13,22 +13,45 @@ type Pages = {
   "/": {
     params: {};
   };
-  "/dashboard": {
+  "/login": {
     params: {};
+  };
+  "/app": {
+    params: {};
+  };
+  "/app/dashboard": {
+    params: {};
+  };
+  "/*": {
+    params: {
+      "*": string;
+    };
   };
 };
 
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/dashboard";
+    page: "/" | "/login" | "/app" | "/app/dashboard" | "/*";
+  };
+  "./modules/guards/unprotected-route.tsx": {
+    id: "modules/guards/unprotected-route";
+    page: "/" | "/login";
   };
   "./modules/login.tsx": {
     id: "modules/login";
-    page: "/";
+    page: "/login";
+  };
+  "./modules/guards/protected-route.tsx": {
+    id: "modules/guards/protected-route";
+    page: "/app" | "/app/dashboard";
   };
   "./modules/dashboard.tsx": {
     id: "modules/dashboard";
-    page: "/dashboard";
+    page: "/app/dashboard";
+  };
+  "./modules/guards/catchall.tsx": {
+    id: "modules/guards/catchall";
+    page: "/*";
   };
 };
